@@ -1,4 +1,3 @@
-Сделаем отдельный, короткий, но полный гайд **конкретно по MTProto‑прокси** на VPS (то, что ты уже поднял, но в красивом виде).
 
 ***
 
@@ -155,16 +154,3 @@ ufw status
 ```text
 tg://proxy?server=IP_СЕРВЕРА&port=ПОРТ&secret=СЕКРЕТ
 ```
-
-Примеры, которые у тебя уже рабочие:
-
-```text
-tg://proxy?server=95.216.232.137&port=8080&secret=ae42f2f44619bfc8b0e5173867f0fc16
-tg://proxy?server=155.212.145.54&port=8089&secret=1f12b333b3592cba2ffe90669b35b1d9
-```
-
-Как подключаться:
-
-1. Копируешь ссылку на телефон/ПК.  
-2. Открываешь её — Telegram предложит «Добавить прокси».  
-3. Нажимаешь «Включить» и проверяешь работу (отправка сообщений, открытие каналов). [green](https://green.cloud/docs/greencloud-documents/linux-operating-systems/how-to-set-up-mtproto-proxy-for-telegram-on-ubuntu-22-04/)
