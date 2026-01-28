@@ -69,7 +69,7 @@ head -c 16 /dev/urandom | xxd -ps
 ae42f2f44619bfc8b0e5173867f0fc16
 ```
 
-Сохрани его — он понадобится в юните и в ссылке для Telegram. [remadmin](https://remadmin.com/blog/linux/telegram-mtproto-proxy/)
+Сохрани его — он понадобится в юните и в ссылке для Telegram.
 
 ***
 
@@ -115,7 +115,7 @@ WantedBy=multi-user.target
 
 - `-H 8080` — внешний порт прокси (можешь использовать 8080/8089/443/8443 и т.п.).  
 - `-p 8888` — внутренний служебный порт.  
-- `-S ...` — твой сгенерированный секрет. [github](https://github.com/TelegramMessenger/MTProxy/issues/344)
+- `-S ...` — твой сгенерированный секрет. 
 
 Сохраняем (Ctrl+O, Enter, Ctrl+X).
 
@@ -128,7 +128,7 @@ systemctl restart mtproto-proxy
 systemctl status mtproto-proxy
 ```
 
-Должно быть `Active: active (running)` без ошибок `203/EXEC` или `217/USER`. [stackoverflow](https://stackoverflow.com/questions/45776003/fixing-a-systemd-service-203-exec-failure-no-such-file-or-directory)
+Должно быть `Active: active (running)` без ошибок `203/EXEC` или `217/USER`.
 
 ***
 
